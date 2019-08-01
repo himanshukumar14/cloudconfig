@@ -1,0 +1,4 @@
+api:
+  title: Self Service Web Interface API
+  description: This is the API documentation for the Self Service APIs
+  version: 1.0
