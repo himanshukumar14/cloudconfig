@@ -1,0 +1,4 @@
+query:
+   getRole: Select ROLE from USERS where USER_NAME = :username
+   getCategories: Select CATEGORY, CAT_DISPLAY_NAME, SUB_CATEGORY, SUB_CAT_DISPLAY_NAME from CATEGORIES_ROLE_RLT where ROLE like :role
+   getAllLayouts: Select * from LAYOUT
